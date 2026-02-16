@@ -122,11 +122,44 @@ body {
     }
 }
 
-/* 모바일: h1 글씨 크기 줄임 */
+/* 모바일: 글씨·요소 크기 줄임 */
 @media (max-width: 767px) {
+    .game-box {
+        padding: 1.5rem;
+    }
+
     .game-box h1 {
         font-size: 0.95rem;
+        margin-bottom: 0.75rem;
         -webkit-text-size-adjust: 100%;
         text-size-adjust: 100%;
+    }
+
+    #result-area,
+    #chance-area {
+        font-size: 0.9rem;
+        margin: 0.4rem 0;
+    }
+
+    #result-area {
+        margin-top: 1rem;
+    }
+
+    #user-input {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+        margin: 0.75rem auto;
+    }
+
+    .buttons {
+        margin-top: 0.75rem;
+    }
+
+    .buttons button {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.75rem;
+        min-width: 72px;
+        width: 72px;
+        margin: 0 0.2rem;
     }
 }
