@@ -23,6 +23,7 @@ body {
 .game-box h1 {
     margin-top: 0;
     margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 #result-area,
@@ -118,5 +119,14 @@ body {
         margin: 0 0.5rem;
         padding: 0.6rem 1.2rem;
         font-size: 1.1rem;
+    }
+}
+
+/* 모바일: h1 글씨 크기 줄임 */
+@media (max-width: 767px) {
+    .game-box h1 {
+        font-size: 0.95rem;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
     }
 }
